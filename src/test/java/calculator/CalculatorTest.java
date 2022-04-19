@@ -26,4 +26,9 @@ class CalculatorTest {
 //        IllegalArgumentException iae = assertThrows(IllegalArgumentException.class,
 //                () -> new Calculator().divide(5,0));
 //    }
+
+    @Test
+    void divideTest() {
+        assertEquals(2.5, new Calculator().divide(5,2));
+    }
 }
