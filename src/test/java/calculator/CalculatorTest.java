@@ -20,12 +20,13 @@ class CalculatorTest {
     void multipplyTest() {
         assertEquals(20, new Calculator().multiply(5, 4));
     }
-//
-//    @Test
-//    void divideWithZeroTest() {
-//        IllegalArgumentException iae = assertThrows(IllegalArgumentException.class,
-//                () -> new Calculator().divide(5,0));
-//    }
+
+    @Test
+    void divideWithZeroTest() {
+        IllegalArgumentException iae = assertThrows(IllegalArgumentException.class,
+                () -> new Calculator().divide(5,0));
+        assertEquals("You can not divide with zero!", iae.getMessage());
+    }
 
     @Test
     void divideTest() {
