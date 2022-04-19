@@ -21,7 +21,7 @@ public class Calculator {
         return (double)a / b;
     }
 
-     void emptyMethod() {
+     void E() {
 
      }
 }
