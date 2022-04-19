@@ -16,10 +16,10 @@ class CalculatorTest {
         assertEquals(4, new Calculator().subtract(12, 8));
     }
 
-//    @Test
-//    void multipplyTest() {
-//        assertEquals(20, new Calculator().multiply(5, 4));
-//    }
+    @Test
+    void multipplyTest() {
+        assertEquals(20, new Calculator().multiply(5, 4));
+    }
 //
 //    @Test
 //    void divideWithZeroTest() {
