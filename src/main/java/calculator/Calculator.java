@@ -18,6 +18,6 @@ public class Calculator {
         if (b == 0) {
             throw new IllegalArgumentException("You can not divide with zero!");
         }
-        return a / b;
+        return (double)a / b;
     }
 }
